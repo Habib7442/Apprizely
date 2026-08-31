@@ -110,6 +110,27 @@ export default function Home() {
               <span>Watch Demo</span>
             </a>
           </motion.div>
+          {/* Platform Preview Mockup Frame using /og-image.jpg */}
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="mt-14 w-full max-w-5xl rounded-2xl sm:rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur-xl p-2 sm:p-3 shadow-2xl overflow-hidden"
+          >
+            {/* Browser Window Header */}
+            <div className="flex items-center gap-1.5 px-3 py-2 border-b border-slate-100 mb-2">
+              <div className="w-2.5 h-2.5 rounded-full bg-red-400/80" />
+              <div className="w-2.5 h-2.5 rounded-full bg-amber-400/80" />
+              <div className="w-2.5 h-2.5 rounded-full bg-emerald-400/80" />
+              <div className="ml-2 text-[11px] text-slate-400 font-mono">apprizely.com/dashboard</div>
+            </div>
+
+            <img
+              src="/og-image.jpg"
+              alt="Apprizely Continuous Employee Evaluation & Salary Increment Platform"
+              className="w-full h-auto rounded-xl border border-slate-200/60 shadow-xs"
+            />
+          </motion.div>
         </main>
       </div>
 

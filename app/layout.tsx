@@ -7,6 +7,30 @@ export const metadata: Metadata = {
   title: "Apprizely — Where good work pays off",
   description:
     "An increment-based employee management SaaS platform that measures real employee contribution and turns it into fair, transparent salary rewards.",
+  openGraph: {
+    title: "Apprizely — Where good work pays off",
+    description:
+      "An increment-based employee management SaaS platform that measures real employee contribution and turns it into fair, transparent salary rewards.",
+    url: "https://apprizely.com",
+    siteName: "Apprizely",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Apprizely — Continuous Employee Evaluation & Salary Increments",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Apprizely — Where good work pays off",
+    description:
+      "An increment-based employee management SaaS platform that measures real employee contribution and turns it into fair, transparent salary rewards.",
+    images: ["/og-image.jpg"],
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
