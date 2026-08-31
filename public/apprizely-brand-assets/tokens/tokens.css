@@ -1,0 +1,13 @@
+:root {
+  --apz-violet: #7C3AED;
+  --apz-cyan: #06B6D4;
+  --apz-magenta: #EC4899;
+  --apz-ink: #0B1020;
+  --apz-white: #FFFFFF;
+  --apz-muted-on-dark: #8A93AD;
+  --apz-muted-on-light: #6B7280;
+  --apz-gradient-primary: linear-gradient(135deg, #7C3AED 0%, #06B6D4 100%);
+  --apz-font-ui: Poppins, Inter, system-ui, sans-serif;
+  --apz-tracking-wordmark: -0.012em;
+  --apz-tracking-tagline: 0.30em;
+}
